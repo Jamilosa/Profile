@@ -116,7 +116,9 @@ function updateView() {
   const cards = projectGrid.querySelectorAll('.project');
   let visibleCount = 0;
   cards.forEach(card => {
-    const specs = card.dataset.specialization.split(" ");
+    const specAttr = card.dataset.specialization;
+    // Cards with no specialization are shown in all views
+    const specs = specAttr ? specAttr.split(" ") : [spec];
     const show = specs.includes(spec);
     card.style.display = show ? '' : 'none';
     if (show) visibleCount++;
