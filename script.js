@@ -47,9 +47,9 @@ function getUrlParameter(name) {
 }
 
 // chip limits
-const DOMAIN_LIMIT = 4;
-const CONCEPT_LIMIT = 2;
-const TOOL_LIMIT = 5;
+const DOMAIN_LIMIT = 5;
+const CONCEPT_LIMIT = 5;
+const TOOL_LIMIT = 7;
 
 function renderList(el, items) {
   el.innerHTML = '';
