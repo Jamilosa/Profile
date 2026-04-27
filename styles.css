@@ -4,19 +4,19 @@
   --panel: #272B34;        /* right side bg */
   --panel-2: #2E323B;      /* slightly darker variant of right bg */
   --text: #DCDDDE;         /* text color */
-  --muted: #9BA1A8;        /* slightly desaturated text */
+  --muted: #888888;        /* text-muted from Atom theme */
   --accent: #61AFEF;       /* hyperlink */
-  --accent-light: #7DC1FF; /* lighter accent */
+  --accent-light: #70BDFC; /* text-accent-hover from Atom theme */
   --accent-dark: #4C79CD;  /* active hyperlink */
   --chip: #20242B;         /* specialization dropdown */
-  --chip-border: #4A4D53;  /* slightly lighter border #4A4D53 */
-  --divider: #3D4148;      /* subtle divider */
+  --chip-border: #424958;  /* background-modifier-border from Atom theme */
+  --divider: #404754;      /* divider-color-hover from Atom theme */
   --card: #252A32;         /* card background */
   --card-hover: #2D3138;   /* card hover background */
-  --clickable-hover: #252A32;
+  --clickable-hover: #353B47; /* interactive-hover from Atom theme */
   
   /* New complementary colors */
-  --success: #7BC47F;      /* green for positive actions */
+  --success: #98C379;      /* green from Atom theme */
   --warning: #E5C07B;      /* yellow for warnings */
   --error: #E06C75;        /* red for errors */
   --info: #56B6C2;         /* teal for info */
